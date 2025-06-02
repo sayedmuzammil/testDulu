@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import  { useState, useEffect } from 'react';
 import RecipeGrid from './RecipeGrid';
 import type { Recipe } from '@/components/types/recipes';
 import dummyRecipes from '@/data/dummyRecipes';

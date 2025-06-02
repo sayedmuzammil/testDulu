@@ -1,4 +1,3 @@
-// components/RecipeGrid.tsx
 import RecipeCard from './RecipeCard';
 import type { Recipe } from '@/components/types/recipes';
 
