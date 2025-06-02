@@ -4,10 +4,7 @@ import Navbar from './components/layout/Navbar';
 import Footer from './components/layout/Footer';
 import { Suspense, lazy } from 'react';
 
-const Home = lazy(() => import('./pages/Home'));
-const Recipes = lazy(() => import('./pages/Recipes'));
-const Categories = lazy(() => import('./pages/Categories'));
-const AddRecipe = lazy(() => import('./pages/AddRecipes'));
+const Home = lazy(() => import('./pages/home/Home'));
 
 export default function App() {
   return (
@@ -19,9 +16,6 @@ export default function App() {
         >
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/recipes" element={<Recipes />} />
-            <Route path="/categories" element={<Categories />} />
-            <Route path="/add-recipe" element={<AddRecipe />} />
           </Routes>
         </Suspense>
       </div>
