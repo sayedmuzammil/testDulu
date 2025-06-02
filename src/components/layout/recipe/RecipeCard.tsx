@@ -1,4 +1,4 @@
-import type { Recipe } from '../../components/types/recipes';
+import type { Recipe } from '../../types/recipes';
 import { getCategoryNames } from '@/utils/categoryUtils';
 import { Link } from 'react-router-dom';
 

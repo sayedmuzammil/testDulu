@@ -1,5 +1,5 @@
-import  { useState, useEffect } from 'react';
-import RecipeGrid from './RecipeGrid';
+import { useState, useEffect } from 'react';
+import RecipeGrid from '../../components/layout/recipe/RecipeGrid';
 import type { Recipe } from '@/components/types/recipes';
 import dummyRecipes from '@/data/dummyRecipes';
 
@@ -12,7 +12,7 @@ function HomePage() {
     async function fetchRecipes() {
       try {
         const response = await fetch(
-          'https://script.google.com/macros/s/.../exec?action=getRecipes'
+          'https://script.google.com/macros/library/d/1mTzpz6biDrt0MIk_b3Uod9Z2gMFu1k5LQv-mgWlk6V4twDI6k2IbECbs/24?action=getRecipes'
         );
 
         if (!response.ok) throw new Error('Failed to fetch');
