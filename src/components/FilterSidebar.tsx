@@ -10,6 +10,7 @@ import {
   SidebarGroupContent,
   SidebarGroupLabel,
   SidebarHeader,
+  SidebarMenu,
   SidebarMenuItem,
 } from '@/components/ui/sidebar';
 import { Checkbox } from '@/components/ui/checkbox';
