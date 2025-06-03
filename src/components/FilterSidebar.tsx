@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Search, ChefHat, Filter, X } from 'lucide-react';
+import { Search, Filter, X } from 'lucide-react';
 import { Input } from '@/components/ui/input';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
@@ -10,11 +10,7 @@ import {
   SidebarGroupContent,
   SidebarGroupLabel,
   SidebarHeader,
-  SidebarInset,
-  SidebarMenu,
   SidebarMenuItem,
-  SidebarProvider,
-  SidebarTrigger,
 } from '@/components/ui/sidebar';
 import { Checkbox } from '@/components/ui/checkbox';
 import type { Recipe } from './types/recipes';
