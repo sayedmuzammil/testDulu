@@ -12,7 +12,7 @@ function HomePage() {
     async function fetchRecipes() {
       try {
         const response = await fetch(
-          'https://script.google.com/macros/s/AKfycbzxhMnoeTkqQE8SoSxURZKUMpBYdZyYsPzngkDqrpp2L6vwTFsI_Rb4laBbddiMrHzz/exec'
+          'https://script.google.com/macros/s/AKfycbycVEB2lI4RrckcC2HnPclNLLfg6d7Ji5Vzpu05ijd-v3KO_FyHvJhwh6JeU7lXMsi5/exec?path=recipes'
         );
 
         if (!response.ok) throw new Error('Failed to fetch');
